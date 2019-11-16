@@ -12,10 +12,25 @@ img {
     clear: both;
     display: table;
 }
+.gallery {
+    padding: 0 150px;
+}
+.gallery-1 {
+    display: flex;
+    align-items: center;
+}
+.gallery-2 {
+    display: flex;
+    align-items: center;
+}
+.gallery-3 {
+    display: flex;
+    align-items: center;
+}
 .card {
     box-shadow: 0 6px 4px 0 #dddddd;
     width: 200px;
-    margin: 10px;
+    margin: 20px;
     position: relative;
 }
 .text {
