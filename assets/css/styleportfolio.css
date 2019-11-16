@@ -1,0 +1,29 @@
+
+.container h1 {
+    color: #4aaaa5;
+}
+img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.card {
+    box-shadow: 0 6px 4px 0 #dddddd;
+    width: 200px;
+    margin: 10px;
+    position: relative;
+}
+.text {
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    padding: 15px 0 15px 0;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
